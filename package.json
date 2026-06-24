@@ -4,7 +4,7 @@
   "description": "Node.js 後端 10 週班 Week 1 作業：健身房資料處理工具",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node --env-file=.env app.js",
     "test": "jest --runInBand"
   },
   "devDependencies": {
